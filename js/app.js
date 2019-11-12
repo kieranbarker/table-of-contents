@@ -13,6 +13,8 @@
     );
   }
 
+  if (!headings.length) return;
+
   tableOfContents.innerHTML = (
     "<nav>" +
       "<ol>" +
