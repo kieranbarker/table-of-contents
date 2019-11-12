@@ -3,7 +3,7 @@
   "use strict";
 
   var tableOfContents = d.querySelector("#table-of-contents");
-  var headings = Array.from(d.querySelectorAll("h2"));
+  var headings = Array.from(d.querySelectorAll("h2[id]"));
 
   function createLink(heading) {
     return (
