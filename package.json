@@ -1,0 +1,25 @@
+{
+  "name": "table-of-contents",
+  "version": "1.0.0",
+  "description": "Dynamically create a table of contents based on the headings in a document",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieranbarker/table-of-contents.git"
+  },
+  "author": "Kieran Barker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kieranbarker/table-of-contents/issues"
+  },
+  "homepage": "https://github.com/kieranbarker/table-of-contents#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.2.0"
+  }
+}
