@@ -1,1 +1,0 @@
-*{box-sizing:border-box}body{width:88%;max-width:40em;margin:0 auto}li{margin:1em 0}:target{background:gold}:target::before{content:"►";margin-right:.25em;font-size:70%}

@@ -1,0 +1,25 @@
+*, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  width: 88%;
+  max-width: 34rem;
+  margin: 1rem auto;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:target::before {
+  content: '👉 ';
+}
